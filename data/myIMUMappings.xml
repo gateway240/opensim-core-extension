@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<OpenSimDocument Version="40000">
+	<XsensDataReaderSettings>
+		<!--Name of trial (Common prefix of txt files representing trial).-->
+		<trial_prefix>test_distance_analysis_DistanceKinematics_dist</trial_prefix>
+		<data_folder>results</data_folder>
+		<!--List of Experimental sensors and desired associated names in resulting tables-->
+		<ExperimentalSensors>
+			<ExperimentalSensor name="_toes_l-toes_r">
+				<name_in_model>toes_l-toes_r</name_in_model>
+			</ExperimentalSensor>
+
+			<ExperimentalSensor name="_toes_l-tibia_l">
+				<name_in_model>toes_l-tibia_l</name_in_model>
+			</ExperimentalSensor>
+
+			<ExperimentalSensor name="_toes_l-talus_l">
+				<name_in_model>toes_l-talus_l</name_in_model>
+			</ExperimentalSensor>
+
+			<ExperimentalSensor name="_toes_l-femur_l">
+				<name_in_model>toes_l-femur_l</name_in_model>
+			</ExperimentalSensor>
+
+			<ExperimentalSensor name="_toes_l-torso">
+				<name_in_model>toes_l-torso</name_in_model>
+			</ExperimentalSensor>
+
+			<ExperimentalSensor name="_toes_r-tibia_l">
+				<name_in_model>toes_r-tibia_l</name_in_model>
+			</ExperimentalSensor>
+
+			<ExperimentalSensor name="_toes_r-talus_l">
+				<name_in_model>toes_r-talus_l</name_in_model>
+			</ExperimentalSensor>
+
+			<ExperimentalSensor name="_toes_r-femur_l">
+				<name_in_model>toes_r-femur_l</name_in_model>
+			</ExperimentalSensor>
+
+			<ExperimentalSensor name="_toes_r-torso">
+				<name_in_model>toes_r-torso</name_in_model>
+			</ExperimentalSensor>
+
+			<ExperimentalSensor name="_calcn_l-tibia_l">
+				<name_in_model>calcn_l-tibia_l</name_in_model>
+			</ExperimentalSensor>
+
+			<ExperimentalSensor name="_calcn_l-talus_l">
+				<name_in_model>calcn_l-talus_l</name_in_model>
+			</ExperimentalSensor>
+
+			<ExperimentalSensor name="_calcn_l-femur_l">
+				<name_in_model>calcn_l-femur_l</name_in_model>
+			</ExperimentalSensor>
+
+			<ExperimentalSensor name="_calcn_r-tibia_l">
+				<name_in_model>calcn_r-tibia_l</name_in_model>
+			</ExperimentalSensor>
+
+			<ExperimentalSensor name="_calcn_r-talus_l">
+				<name_in_model>calcn_r-talus_l</name_in_model>
+			</ExperimentalSensor>
+
+			<ExperimentalSensor name="_calcn_r-femur_l">
+				<name_in_model>calcn_r-femur_l</name_in_model>
+			</ExperimentalSensor>
+
+			<ExperimentalSensor name="_torso-tibia_l">
+				<name_in_model>torso-tibia_l</name_in_model>
+			</ExperimentalSensor>
+
+			<ExperimentalSensor name="_torso-talus_l">
+				<name_in_model>torso-talus_l</name_in_model>
+			</ExperimentalSensor>
+
+			<ExperimentalSensor name="_torso-femur_l">
+				<name_in_model>torso-femur_l</name_in_model>
+			</ExperimentalSensor>
+
+			<ExperimentalSensor name="_torso-calcn_l">
+				<name_in_model>torso-calcn_l</name_in_model>
+			</ExperimentalSensor>
+
+			<ExperimentalSensor name="_torso-toes_l">
+				<name_in_model>torso-toes_l</name_in_model>
+			</ExperimentalSensor>
+
+			<ExperimentalSensor name="_femur_r-tibia_r">
+				<name_in_model>femur_r-tibia_r</name_in_model>
+			</ExperimentalSensor>
+
+			<ExperimentalSensor name="_femur_r-talus_r">
+				<name_in_model>femur_r-talus_r</name_in_model>
+			</ExperimentalSensor>
+
+			<ExperimentalSensor name="_femur_r-toes_r">
+				<name_in_model>femur_r-toes_r</name_in_model>
+			</ExperimentalSensor>
+
+			<ExperimentalSensor name="_femur_l-tibia_l">
+				<name_in_model>femur_l-tibia_l</name_in_model>
+			</ExperimentalSensor>
+
+			<ExperimentalSensor name="_femur_l-talus_l">
+				<name_in_model>femur_l-talus_l</name_in_model>
+			</ExperimentalSensor>
+
+			<ExperimentalSensor name="_femur_l-toes_l">
+				<name_in_model>femur_l-toes_l</name_in_model>
+			</ExperimentalSensor>
+
+			<ExperimentalSensor name="_femur_l-torso">
+				<name_in_model>femur_l-torso</name_in_model>
+			</ExperimentalSensor>
+
+			<ExperimentalSensor name="_pelvis-tibia_l">
+				<name_in_model>pelvis-tibia_l</name_in_model>
+			</ExperimentalSensor>
+
+			<ExperimentalSensor name="_pelvis-talus_l">
+				<name_in_model>pelvis-talus_l</name_in_model>
+			</ExperimentalSensor>
+
+			<ExperimentalSensor name="_pelvis-femur_l">
+ ```xml
+				<name_in_model>pelvis-femur_l</name_in_model>
+			</ExperimentalSensor>
+
+			<ExperimentalSensor name="_pelvis-toes_l">
+				<name_in_model>pelvis-toes_l</name_in_model>
+			</ExperimentalSensor>
+
+			<ExperimentalSensor name="_pelvis-torso">
+				<name_in_model>pelvis-torso</name_in_model>
+			</ExperimentalSensor>
+
+			<ExperimentalSensor name="_talus_l-tibia_l">
+				<name_in_model>talus_l-tibia_l</name_in_model>
+			</ExperimentalSensor>
+
+			<ExperimentalSensor name="_talus_l-toes_l">
+				<name_in_model>talus_l-toes_l</name_in_model>
+			</ExperimentalSensor>
+
+			<ExperimentalSensor name="_talus_l-torso">
+				<name_in_model>talus_l-torso</name_in_model>
+			</ExperimentalSensor>
+
+			<ExperimentalSensor name="_talus_r-tibia_l">
+				<name_in_model>talus_r-tibia_l</name_in_model>
+			</ExperimentalSensor>
+
+			<ExperimentalSensor name="_talus_r-toes_l">
+				<name_in_model>talus_r-toes_l</name_in_model>
+			</ExperimentalSensor>
+
+			<ExperimentalSensor name="_talus_r-femur_l">
+				<name_in_model>talus_r-femur_l</name_in_model>
+			</ExperimentalSensor>
+
+			<ExperimentalSensor name="_tibia_l-toes_l">
+				<name_in_model>tibia_l-toes_l</name_in_model>
+			</ExperimentalSensor>
+
+			<ExperimentalSensor name="_tibia_l-torso">
+				<name_in_model>tibia_l-torso</name_in_model>
+			</ExperimentalSensor>
+
+			<ExperimentalSensor name="_tibia_r-toes_l">
+				<name_in_model>tibia_r-toes_l</name_in_model>
+			</ExperimentalSensor>
+
+			<ExperimentalSensor name="_tibia_r-torso">
+				<name_in_model>tibia_r-torso</name_in_model>
+			</ExperimentalSensor>
+		</ExperimentalSensors>
+	</XsensDataReaderSettings>
+</OpenSimDocument>
